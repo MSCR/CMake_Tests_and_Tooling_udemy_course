@@ -7,7 +7,7 @@
 
 #include "my_lib.h"
 
-
+#ifdef PRINTER_ACTIVE
 /**
  * @brief Prints out hello world and test the JSON Lib.
  *
@@ -35,6 +35,7 @@ void print_hello_world()
         << SPDLOG_VER_PATCH << std::endl;
 
 }
+#endif
 
 unsigned int factorial(unsigned int number)
 {
