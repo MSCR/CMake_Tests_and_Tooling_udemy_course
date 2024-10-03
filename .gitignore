@@ -1,3 +1,4 @@
 build
 external
 docs/html
+vcpkg_installed
